@@ -8,6 +8,12 @@ namespace MHWModManager
 {
     static class Program
     {
+        
+        // TODO: Add support for mod urls (maybe IDs as well)
+        // TODO: List currently added mods (store them somewhere)
+        // TODO: Basic mod management (add, remove)
+        // TODO: Advanced mod management (install, update, uninstall)
+        
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>
@@ -17,7 +23,7 @@ namespace MHWModManager
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ModsForm());
         }
     }
 }
